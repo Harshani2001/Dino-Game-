@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dino VS Cactus</title> 
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="logo.png" class="logo"/>
+    </head>
+    <body class="body" onkeydown="keycheck(event)" id="body">
+
+        <div class="background" id="background">
+            <div class="score" id="score">0</div>
+            <div class="score2">score =</div>
+            <div class="Level">level =</div>
+            <img src="Run (1).png" class="player" id="player"/>
+            <button class="homebtn" onclick="home();"></button>
+            <div class="enter" id="enter">ENTER</div>
+        </div>
+
+        <div class="gameStart" id="gameStart">
+            <button class="btn2" onclick="mod1();">Rady To Play</button>
+        </div>
+
+        
+
+        <div class="gameover" id="gameover">
+            <div class="g1">Game Over</div>
+            <div class="s1">Your Score</div>
+            <div id="endScore" class="numb">0</div>
+            
+
+            <button class="b1" onclick="re();">Try Again</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
